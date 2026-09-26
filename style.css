@@ -10,3 +10,6 @@
 
 /* Three demos share one row, with basketball last. */
 .more-work{display:block}.inline-examples{grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}.inline-examples .portrait-demo{max-width:none;width:auto;margin:0}.inline-examples .portrait-demo video{max-height:none}.inline-examples h4{font-size:18px}.inline-examples p{font-size:14px}@media(max-width:800px){.inline-examples{gap:16px}}@media(max-width:599px){.inline-examples{grid-template-columns:1fr;gap:28px}.inline-examples article,.inline-examples .portrait-demo{width:100%;max-width:340px;margin:auto}}
+
+
+.performance-gallery{margin-top:42px;padding-top:32px;border-top:1px solid #343944}.performance-gallery>.eyebrow{color:#8c9ae0}.performance-gallery>h3{margin:10px 0 24px}.performance-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px}.performance-grid article{min-width:0}.performance-grid video{display:block;width:100%;aspect-ratio:16/9;object-fit:contain;background:#080b10}.performance-grid h3{font-size:19px;margin:16px 0 8px}.performance-grid p{font-size:14px;line-height:1.7;color:#a8afbc}.video-grid article{min-width:0}@media(max-width:900px){.performance-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:599px){.performance-grid{grid-template-columns:1fr}}
